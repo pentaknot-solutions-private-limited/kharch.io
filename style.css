@@ -23,7 +23,21 @@ a.no-link-text {
 
   margin: 50px auto;
 }
+.footer {
+  margin-top: 100px;
+  text-align: center;
+  color: #a8a8a8;
+  background: #e0e0e0;
+  padding: 5px;
+  margin: auto -1.5rem;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
 
+.text-center {
+  text-align: center;
+}
 .title {
   margin: 0;
 }
@@ -74,6 +88,7 @@ a.no-link-text {
   padding: 4px 10px;
   border-radius: 4px 10px;
   font-weight: 600;
+  font-size: 18px;
 }
 
 .product a {
@@ -92,6 +107,11 @@ a.no-link-text {
   object-fit: contain;
 }
 
+.final-text {
+  margin: 20px auto;
+  color: #3c3c3c;
+}
+
 @media screen and (max-width: 768px) {
   .products {
     flex-direction: column;
@@ -99,6 +119,9 @@ a.no-link-text {
   .product {
     margin-bottom: 20px;
     width: calc(100% - 40px);
+  }
+  .text-center-mob {
+    text-align: center;
   }
 }
 @media screen and (min-width: 769px) {
